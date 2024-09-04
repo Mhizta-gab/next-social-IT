@@ -10,7 +10,7 @@ const AddPosts = () => {
         <div className="flex-1">
             {/* TEXT-INPUT */}
           <div className="flex gap-4 ">
-            <textarea placeholder="what's on your mind ?" className=" flex-1 p-2 bg-slate-100 rounded-lg"></textarea> 
+            <textarea placeholder="what's on your mind ?" className=" flex-1 p-2 bg-slate-100 rounded-lg outline-none"></textarea> 
             <Image src={"/emoji.png"} alt="" width={20} height={20} className="w-5 h-5 cursor-pointer self-end" />
  
           </div> 
